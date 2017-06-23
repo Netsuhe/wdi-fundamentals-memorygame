@@ -4,7 +4,7 @@ body {
 }
 h1 {
 	font-family: "Raleway";
-	color: #002C40;
+	color: #ffffff;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
@@ -13,7 +13,7 @@ h1 {
 }
 a {
 	font-family: "Raleway";
-	color: #F15B31;
+	color: #ffffff;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
@@ -52,6 +52,7 @@ main {
 img {
 	margin: 40px 8px 0 8px;
 }
+
 footer {
 	text-transform: uppercase;
 	padding: 0 20px;
@@ -61,16 +62,18 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
-p.copyright {
+.copyright {
 	font-family: "Raleway";
 	float: left;
+	color: #ffffff;
 }
-p.message {
+.message {
 	font-family: "Raleway";
 	float: right;
+	color: #ffffff;
 }
 
-footer.clearfix:after {
+.clearfix:after {
   visibility: hidden;
   display: block;
   content: " ";
@@ -78,6 +81,7 @@ footer.clearfix:after {
   height: 0;
   font-size: 0;
 }
+
 .name {
 	color: #F15B31;
 	font-weight: 700;
